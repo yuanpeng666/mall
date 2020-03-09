@@ -30,6 +30,8 @@ src
     views 大的视图
         home  主页
         category  分类
+        cart  购物车
+        profile  我的
 
     router  路由
 

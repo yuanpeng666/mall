@@ -23,6 +23,6 @@ export default {
     right:0;
     bottom: 0;
     background-color: #f0f0f0;
-    box-shadow: 0 -2px 5px #ddd;
+    box-shadow: 0 -1px 2px #f0f0f0;
   }
 </style>

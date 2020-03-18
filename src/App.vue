@@ -5,12 +5,12 @@
 </template>
 
 <script>
-import MainTabbar from 'components/common/tabbar/MainTabbar'
+import MainTabbar from 'components/content/mainTabbar/MainTabbar'
 
   export default {
     name: 'App',
     components: {
-      MainTabbar
+      MainTabbar,
     }
   }
 </script>

@@ -56,6 +56,14 @@ a {
   float: right;
 }
 
+img {
+  vertical-align: top;
+}
+
+ul,li{
+  list-style: none;
+}
+
 /* reset css */
 /*
 a,img,input {border:none;}

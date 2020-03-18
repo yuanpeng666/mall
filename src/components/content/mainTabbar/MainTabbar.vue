@@ -5,7 +5,9 @@
   textColor: 传入文字颜色[String]，默认'#f00'
  -->
   <div>
-    <router-view></router-view>
+    <!-- <keep-alive> -->
+      <router-view></router-view>
+    <!-- </keep-alive> -->
     <tabbar>
       <tabbar-item path='/home'>
         <img slot="item-icon" src="~assets/img/tabbar/home.svg" alt="">
@@ -32,8 +34,8 @@
 </template>
 
 <script>
-import tabbar from './Tabbar'
-import TabbarItem from './TabbarItem'
+import tabbar from 'components/common/tabbar/Tabbar'
+import TabbarItem from 'components/common/tabbar/TabbarItem'
 
 export default {
   name: 'MainTabbar',

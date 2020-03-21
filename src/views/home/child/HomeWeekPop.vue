@@ -15,7 +15,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
   .week-pop img{
     width: 100%;
   }

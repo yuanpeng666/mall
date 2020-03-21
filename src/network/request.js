@@ -3,7 +3,7 @@ import axios from 'axios'
 export function request(config){
   // axios实例
   const sl1 = axios.create({
-    baseURL: 'http://123.207.32.32:8000',
+    baseURL: 'http://',
     timeout: 5000
   })
 

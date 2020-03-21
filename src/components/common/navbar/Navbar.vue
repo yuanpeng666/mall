@@ -16,13 +16,12 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
   .navbar{
     display: flex;
     height: 44px;
     line-height: 44px;
     text-align: center;
-    box-shadow: 0 1px 3px var(--color-tint);
   }
   .navbar-l{
     width: 60px;

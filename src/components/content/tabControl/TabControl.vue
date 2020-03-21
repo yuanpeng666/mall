@@ -40,6 +40,7 @@ export default {
     display: flex;
     text-align: center;
     background-color: #fff;
+    z-index: 9;
   }
   .tab-control-item{
     flex: 1;

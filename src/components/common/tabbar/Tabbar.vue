@@ -14,7 +14,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
   .tabbar{
     display: flex;
     height: 49px;
@@ -24,5 +24,6 @@ export default {
     bottom: 0;
     background-color: #f0f0f0;
     box-shadow: 0 -1px 2px #f0f0f0;
+    z-index: 999;
   }
 </style>

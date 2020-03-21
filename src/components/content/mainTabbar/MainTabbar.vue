@@ -5,9 +5,9 @@
   textColor: 传入文字颜色[String]，默认'#f00'
  -->
   <div>
-    <!-- <keep-alive> -->
+    <keep-alive exclude="Detail">
       <router-view></router-view>
-    <!-- </keep-alive> -->
+    </keep-alive>
     <tabbar>
       <tabbar-item path='/home'>
         <img slot="item-icon" src="~assets/img/tabbar/home.svg" alt="">
@@ -46,6 +46,6 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
 </style>
